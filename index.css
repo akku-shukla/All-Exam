@@ -1,0 +1,2846 @@
+
+.main {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.main .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 2825px;
+  position: relative;
+}
+
+.main .overlap {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 183px;
+  left: 71px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.main .text-wrapper {
+  top: 0px;
+  left: 40px;
+  position: absolute;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-group {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 206px;
+  left: 47px;
+  background-color: #4d9f2f;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .overlap-group button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 4px 1px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.main .overlap-group button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-group button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+
+.main .text-wrapper-2 {
+  top: 6px;
+  left: 17px;
+  position: absolute;
+  width: 42px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-2 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 183px;
+  left: 282px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.main .p {
+  top: 0px;
+  left: 38px;
+  position: absolute;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .div-wrapper {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 213px;
+  left: 44px;
+  background-color: #4d9f2f;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .div-wrapper button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.main .div-wrapper button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .div-wrapper button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+
+
+.main .overlap-3 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 183px;
+  left: 493px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.main .text-wrapper-3 {
+  top: 0px;
+  left: 41px;
+  position: absolute;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-4 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 216px;
+  left: 53px;
+  background-color: #4d9f2f;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .overlap-4 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.main .overlap-4 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-4 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-5 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 183px;
+  left: 704px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.main .text-wrapper-4 {
+  position: absolute;
+  width: 113px;
+  top: 0px;
+  left: 44px;
+  font-family: "Itim-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-6 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 220px;
+  left: 57px;
+  background-color: #4d9f2f;
+  border-radius: 15px;
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+}
+
+.main .overlap-6 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-6 */
+}
+
+.main .overlap-6 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-6 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-7 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 183px;
+  left: 915px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.main .text-wrapper-5 {
+  top: 0px;
+  left: 40px;
+  position: absolute;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-8 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 223px;
+  left: 55px;
+  background-color: #4d9f2f;
+  border-radius: 15px;
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+}
+
+.main .overlap-8 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-8 */
+}
+
+.main .overlap-8 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-8 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-9 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 183px;
+  left: 1126px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.main .text-wrapper-6 {
+  top: 0px;
+  left: 40px;
+  position: absolute;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-10 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 223px;
+  left: 60px;
+  background-color: #4d9f2f;
+  border-radius: 15px;
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+}
+
+.main .overlap-10 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-10 */
+}
+
+.main .overlap-10 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-10 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-11 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 512px;
+  left: 71px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.main .text-wrapper-6 {
+  top: 0px;
+  left: 35px;
+  position: absolute;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-12 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 215px; /* Adjust if necessary for visual alignment */
+  left: 42px;
+  background-color: #4d9f2f;
+  border-radius: 15px;
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+}
+
+.main .overlap-12 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-12 */
+}
+
+.main .overlap-12 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-12 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-13 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 512px;
+  left: 282px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.main .text-wrapper-7 {
+  top: 0px;
+  left: 40px;
+  position: absolute;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-14 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 222px; /* Adjust as needed for visual alignment */
+  left: 39px;
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-14 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-14 */
+}
+
+.main .overlap-14 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-14 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-15 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 512px;
+  left: 493px; /* Position for the overlap container */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-8 {
+  top: 0px;
+  left: 41px; /* Position for the text */
+  position: absolute;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-16 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 225px; /* Adjust as needed for visual alignment */
+  left: 48px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-16 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-16 */
+}
+
+.main .overlap-16 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-16 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+.main .overlap-17 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 512px;
+  left: 704px; /* Position for the overlap container */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-9 {
+  top: 0px;
+  left: 35px; /* Position for the text */
+  position: absolute;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-18 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 229px; /* Adjust as needed for visual alignment */
+  left: 52px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-18 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-18 */
+}
+
+.main .overlap-18 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-18 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+
+.main .overlap-19 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 512px;
+  left: 915px; /* Position for the overlap container */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-10 {
+  top: 0px;
+  left: 23px; /* Position for the text */
+  position: absolute;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-20 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 232px; /* Adjust as needed for visual alignment */
+  left: 50px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-20 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-20 */
+}
+
+.main .overlap-20 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-20 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+
+.main .overlap-21 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 512px;
+  left: 1126px; /* Position for the overlap container */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-11 {
+  top: 0px;
+  left: 40px; /* Position for the text */
+  position: absolute;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-22 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 232px; /* Adjust as needed for visual alignment */
+  left: 55px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-22 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-22 */
+}
+
+.main .overlap-22 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-22 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-23 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 841px; /* Position for the overlap container */
+  left: 65px; /* Adjust as necessary */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-12 {
+  top: 0px;
+  left: 29px; /* Position for the text */
+  position: absolute;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-24 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 210px; /* Adjust for visual alignment */
+  left: 48px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-24 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-24 */
+}
+
+.main .overlap-24 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-24 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-25 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 841px; /* Position for the overlap container */
+  left: 279px; /* Adjust as necessary */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-13 {
+  top: 0px;
+  left: 29px; /* Position for the text */
+  position: absolute;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-26 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 217px; /* Adjust for visual alignment */
+  left: 42px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-26 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-26 */
+}
+
+.main .overlap-26 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-26 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-27 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 841px;
+  left: 499px;
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-14 {
+  top: 0px;
+  left: 23px; /* Position for the text */
+  position: absolute;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-28 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 220px; /* Adjust for visual alignment */
+  left: 42px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-28 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-28 */
+}
+
+.main .overlap-28 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-28 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-29 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 841px; /* Position for the overlap container */
+  left: 707px; /* Adjust as necessary */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .overlap-30 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 224px; /* Adjust for visual alignment */
+  left: 49px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-30 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-30 */
+}
+
+.main .overlap-30 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-30 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+
+.main .overlap-31 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 841px; /* Position for the overlap container */
+  left: 921px; /* Adjust as necessary */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-15 {
+  top: 0px;
+  left: 30px; /* Position for the text */
+  position: absolute;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-32 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 227px; /* Adjust for visual alignment */
+  left: 44px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-32 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-32 */
+}
+
+.main .overlap-32 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-32 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+
+.main .overlap-33 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 841px; /* Position for the overlap container */
+  left: 1135px; /* Adjust as necessary */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-16 {
+  top: 0px;
+  left: 23px; /* Position for the text */
+  position: absolute;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-34 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 227px; /* Adjust for visual alignment */
+  left: 46px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-34 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-34 */
+}
+
+.main .overlap-34 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-34 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+
+.main .overlap-35 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 1170px; /* Position for the overlap container */
+  left: 65px; /* Adjust as necessary */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-17 {
+  top: 0px;
+  left: 41px; /* Position for the text */
+  position: absolute;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-36 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 219px; /* Adjust for visual alignment */
+  left: 51px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-36 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-36 */
+}
+
+.main .overlap-36 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-36 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-37 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 1170px; /* Position for the overlap container */
+  left: 279px; /* Adjust as necessary */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-18 {
+  top: 0px;
+  left: 43px; /* Position for the text */
+  position: absolute;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-38 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 222px; /* Adjust for visual alignment */
+  left: 43px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-38 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-38 */
+}
+
+.main .overlap-38 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-38 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-39 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 1170px; /* Position for the overlap container */
+  left: 493px; /* Adjust as necessary */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-19 {
+  top: 0px;
+  left: 41px; /* Position for the text */
+  position: absolute;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-40 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 222px; /* Adjust for visual alignment */
+  left: 52px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-40 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-40 */
+}
+
+.main .overlap-40 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-40 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-41 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 1170px; /* Position for the overlap container */
+  left: 707px; /* Adjust as necessary */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-20 {
+  top: 0px;
+  left: 32px; /* Position for the text */
+  position: absolute;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-42 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 225px; /* Adjust for visual alignment */
+  left: 51px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-42 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-42 */
+}
+
+.main .overlap-42 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-42 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-43 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 1170px; /* Adjust as necessary */
+  left: 921px; /* Adjust as necessary */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-21 {
+  top: 7px; /* Position for the small text */
+  left: 17px; /* Adjust as necessary */
+  position: absolute;
+  width: 42px; /* Adjust based on content */
+  font-family: "Inter-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #ffffff; /* Text color */
+  font-size: 15px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .text-wrapper-22 {
+  top: 0px; /* Position for the larger text */
+  left: 17px; /* Adjust as necessary */
+  position: absolute;
+  width: 113px; /* Adjust based on content */
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-44 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 226px; /* Adjust for visual alignment */
+  left: 54px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-44 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-44 */
+}
+
+.main .overlap-44 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-44 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+
+.main .overlap-45 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 1169px; /* Adjust as necessary */
+  left: 1135px; /* Adjust as necessary */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-23 {
+  top: 0px; /* Position for the text */
+  left: 31px; /* Adjust as necessary */
+  position: absolute;
+  width: 113px; /* Adjust based on content */
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-46 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 227px; /* Adjust for visual alignment */
+  left: 52px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-46 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-46 */
+}
+
+.main .overlap-46 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-46 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+
+.main .overlap-47 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 1499px; /* Adjusted position */
+  left: 65px; /* Adjusted position */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-24 {
+  top: 0px; /* Position for the text */
+  left: 29px; /* Adjust as necessary */
+  position: absolute;
+  width: 113px; /* Width for the text */
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-48 {
+  position: absolute;
+  width: 76px; /* Width of button */
+  height: 35px; /* Height of button */
+  top: 212px; /* Adjust for visual alignment */
+  left: 46px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-48 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-48 */
+}
+
+.main .overlap-48 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-48 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-49 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 1499px; /* Adjusted position */
+  left: 279px; /* Adjusted position */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-25 {
+  top: 0px; /* Position for the text */
+  left: 53px; /* Adjust as necessary */
+  position: absolute;
+  width: 113px; /* Width for the text */
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-50 {
+  position: absolute;
+  width: 76px; /* Width of button */
+  height: 35px; /* Height of button */
+  top: 217px; /* Adjust for visual alignment */
+  left: 46px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-50 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-50 */
+}
+
+.main .overlap-50 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-50 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+
+.main .overlap-51 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 1499px; /* Position for the new box */
+  left: 493px; /* Position for the new box */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-26 {
+  top: 0px; /* Position for the text */
+  left: 51px; /* Adjust as necessary */
+  position: absolute;
+  width: 113px; /* Width for the text */
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-52 {
+  position: absolute;
+  width: 76px; /* Width of button */
+  height: 35px; /* Height of button */
+  top: 222px; /* Adjust for visual alignment */
+  left: 46px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-52 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-52 */
+}
+
+.main .overlap-52 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-52 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+
+.main .overlap-53 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 1499px; /* Position for the new box */
+  left: 707px; /* Position for the new box */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-27 {
+  top: 0px; /* Position for the text */
+  left: 42px; /* Adjust as necessary */
+  position: absolute;
+  width: 113px; /* Width for the text */
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-54 {
+  position: absolute;
+  width: 76px; /* Width of button */
+  height: 35px; /* Height of button */
+  top: 226px; /* Adjust for visual alignment */
+  left: 47px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-54 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-54 */
+}
+
+.main .overlap-54 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-54 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-55 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 1499px; /* Position for the new box */
+  left: 921px; /* Position for the new box */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-28 {
+  top: 0px; /* Position for the text */
+  left: 27px; /* Adjust as necessary */
+  position: absolute;
+  width: 113px; /* Width for the text */
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-56 {
+  position: absolute;
+  width: 76px; /* Width of button */
+  height: 35px; /* Height of button */
+  top: 228px; /* Adjust for visual alignment */
+  left: 42px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-56 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-56 */
+}
+
+.main .overlap-56 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-56 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .text-wrapper-29 {
+  top: 7px; /* Position for the small text */
+  left: 17px; /* Position for the small text */
+  position: absolute;
+  width: 42px; /* Width for the small text */
+  font-family: "Inter-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #ffffff; /* Text color */
+  font-size: 15px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-57 {
+  position: absolute;
+  width: 183px; /* Width of the box */
+  height: 276px; /* Height of the box */
+  top: 1498px; /* Position for the new box */
+  left: 1135px; /* Position for the new box */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-30 {
+  top: 0px; /* Position for the text */
+  left: 41px; /* Adjust as necessary */
+  position: absolute;
+  width: 113px; /* Width for the text */
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-58 {
+  position: absolute;
+  width: 76px; /* Width of button */
+  height: 35px; /* Height of button */
+  top: 229px; /* Adjust for visual alignment */
+  left: 46px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-58 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-58 */
+}
+
+.main .overlap-58 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-58 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-59 {
+  position: absolute;
+  width: 183px; /* Width of the box */
+  height: 276px; /* Height of the box */
+  top: 1828px; /* Position for the new box */
+  left: 71px; /* Position for the new box */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-31 {
+  top: 0px; /* Position for the text */
+  left: 30px; /* Adjust as necessary */
+  position: absolute;
+  width: 113px; /* Width for the text */
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-60 {
+  position: absolute;
+  width: 76px; /* Width of button */
+  height: 35px; /* Height of button */
+  top: 213px; /* Adjust for visual alignment */
+  left: 40px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-60 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-60 */
+}
+
+.main .overlap-60 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-60 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+
+.main .overlap-61 {
+  position: absolute;
+  width: 183px; /* Width of the box */
+  height: 276px; /* Height of the box */
+  top: 1828px; /* Position for the new box */
+  left: 285px; /* Position for the new box */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-32 {
+  top: 0px; /* Position for the text */
+  left: 33px; /* Adjust as necessary */
+  position: absolute;
+  width: 113px; /* Width for the text */
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-62 {
+  position: absolute;
+  width: 76px; /* Width of button */
+  height: 35px; /* Height of button */
+  top: 220px; /* Adjust for visual alignment */
+  left: 34px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-62 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-62 */
+}
+
+.main .overlap-62 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-62 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+.main .overlap-61 {
+  position: absolute;
+  width: 183px; /* Width of the box */
+  height: 276px; /* Height of the box */
+  top: 1828px; /* Position for the new box */
+  left: 285px; /* Position for the new box */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-32 {
+  top: 0px; /* Position for the text */
+  left: 33px; /* Adjust as necessary */
+  position: absolute;
+  width: 113px; /* Width for the text */
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-62 {
+  position: absolute;
+  width: 76px; /* Width of button */
+  height: 35px; /* Height of button */
+  top: 220px; /* Adjust for visual alignment */
+  left: 34px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-62 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-62 */
+}
+
+.main .overlap-62 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-62 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+
+.main .overlap-63 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 1828px;
+  left: 499px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.main .overlap-64 {
+  position: absolute;
+  width: 183px; /* Width of the box */
+  height: 276px; /* Height of the box */
+  top: 1828px; /* Position for the new box */
+  left: 713px; /* Position for the new box */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-33 {
+  top: 0px; /* Position for the text */
+  left: 33px; /* Adjust as necessary */
+  position: absolute;
+  width: 113px; /* Width for the text */
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-65 {
+  position: absolute;
+  width: 76px; /* Width of button */
+  height: 35px; /* Height of button */
+  top: 217px; /* Adjust for visual alignment */
+  left: 45px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-65 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-65 */
+}
+
+.main .overlap-65 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-65 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+
+.main .overlap-66 {
+  position: absolute;
+  width: 183px; /* Width of the box */
+  height: 276px; /* Height of the box */
+  top: 1828px; /* Position for the new box */
+  left: 927px; /* Position for the new box */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-34 {
+  top: 0px; /* Position for the text */
+  left: 9px; /* Adjust as necessary */
+  position: absolute;
+  width: 113px; /* Width for the text */
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-67 {
+  position: absolute;
+  width: 76px; /* Width of button */
+  height: 35px; /* Height of button */
+  top: 220px; /* Adjust for visual alignment */
+  left: 40px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-67 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-67 */
+}
+
+.main .overlap-67 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-67 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+
+.main .overlap-68 {
+  position: absolute;
+  width: 183px; /* Width of the box */
+  height: 276px; /* Height of the box */
+  top: 1827px; /* Position for the new box */
+  left: 1141px; /* Position for the new box */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-36 {
+  top: 0px; /* Position for the text */
+  left: 27px; /* Adjust as necessary */
+  position: absolute;
+  width: 113px; /* Width for the text */
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-69 {
+  position: absolute;
+  width: 76px; /* Width of button */
+  height: 35px; /* Height of button */
+  top: 213px; /* Adjust for visual alignment */
+  left: 58px; /* Position for the button */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.main .overlap-69 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-69 */
+}
+
+.main .overlap-69 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-69 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+
+.main .overlap-70 {
+  position: absolute;
+  width: 183px; /* Width of the box */
+  height: 276px; /* Height of the box */
+  top: 2157px; /* Position for the new box */
+  left: 71px; /* Position for the new box */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-38 {
+  top: 0px; /* Position for the text */
+  left: 35px; /* Adjust as necessary */
+  position: absolute;
+  width: 113px; /* Width for the text */
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-71 {
+  position: absolute;
+  width: 76px; /* Width of button */
+  height: 35px; /* Height of button */
+  top: 205px; /* Adjust for visual alignment */
+  left: 42px; /* Position for the button */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+}
+
+.main .overlap-71 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-71 */
+}
+
+.main .overlap-71 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-71 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-72 {
+  position: absolute;
+  width: 183px; /* Width of the box */
+  height: 276px; /* Height of the box */
+  top: 2157px; /* Position for the new box */
+  left: 285px; /* Position for the new box */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .overlap-73 {
+  position: absolute;
+  width: 113px; /* Width for the inner content */
+  height: 144px; /* Height of the content */
+  top: 0px; /* Position inside overlap-72 */
+  left: 29px; /* Centered inside the box */
+}
+
+.main .text-wrapper-39 {
+  top: 0px; /* Position for the text */
+  left: 0; /* Inside the overlap-73 */
+  position: absolute;
+  width: 113px; /* Width for the text */
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-74 {
+  position: absolute;
+  width: 76px; /* Width of button */
+  height: 35px; /* Height of button */
+  top: 210px; /* Adjust for visual alignment */
+  left: 42px; /* Position for the button */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+}
+
+.main .overlap-74 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-74 */
+}
+
+.main .overlap-74 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-74 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-75 {
+  position: absolute;
+  width: 183px; /* Width of the box */
+  height: 276px; /* Height of the box */
+  top: 2157px; /* Position for the new box */
+  left: 499px; /* Position for the new box */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-40 {
+  top: 0px; /* Position for the text */
+  left: 45px; /* Adjusted for centering */
+  position: absolute;
+  width: 113px; /* Width for the text */
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-76 {
+  position: absolute;
+  width: 183px; /* Width of the box */
+  height: 276px; /* Height of the box */
+  top: 2157px; /* Position for the new box */
+  left: 713px; /* Position for the new box */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-41 {
+  top: 0px; /* Position for the text */
+  left: 36px; /* Adjusted for centering */
+  position: absolute;
+  width: 113px; /* Width for the text */
+  font-family: "Itim-Regular", Helvetica; /* Font properties */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-77 {
+  position: absolute;
+  width: 76px; /* Width of button */
+  height: 35px; /* Height of button */
+  top: 219px; /* Adjust for visual alignment */
+  left: 43px; /* Position for the button */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+  display: flex; /* Center content */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+}
+
+.main .overlap-77 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Button rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Fill the width of overlap-77 */
+}
+
+.main .overlap-77 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-77 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-78 {
+  position: absolute;
+  width: 183px; /* Width of the box */
+  height: 276px; /* Height of the box */
+  top: 2157px; /* Position from the top */
+  left: 927px; /* Position from the left */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Subtle shadow */
+}
+
+.main .text-wrapper-42 {
+  top: 0px; /* Position from the top */
+  left: 21px; /* Position from the left for centering */
+  position: absolute;
+  width: 113px; /* Width of the text wrapper */
+  font-family: "Itim-Regular", Helvetica; /* Font style */
+  font-weight: 400;
+  color: #000000; /* Black text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-79 {
+  position: absolute;
+  width: 76px; /* Width of the button container */
+  height: 35px; /* Height of the button container */
+  top: 221px; /* Position from the top */
+  left: 38px; /* Position from the left */
+  background-color: #4d9f2f; /* Button background color */
+  border-radius: 15px; /* Rounded corners */
+  display: flex; /* Centering content */
+  align-items: center; /* Vertical alignment */
+  justify-content: center; /* Horizontal alignment */
+}
+
+.main .overlap-79 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* No border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Rounded corners for the button */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+  width: 100%; /* Fill the width of overlap-79 */
+}
+
+.main .overlap-79 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-79 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-80 {
+  position: absolute;
+  width: 183px; /* Box width */
+  height: 276px; /* Box height */
+  top: 2156px; /* Position from the top */
+  left: 1141px; /* Position from the left */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Box shadow */
+}
+
+.main .text-wrapper-43 {
+  top: 0px; /* Position from the top */
+  left: 21px; /* Left alignment */
+  position: absolute;
+  width: 113px; /* Width of the text */
+  font-family: "Itim-Regular", Helvetica; /* Font style */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-81 {
+  position: absolute;
+  width: 76px; /* Button container width */
+  height: 35px; /* Button container height */
+  top: 222px; /* Position from the top */
+  left: 42px; /* Left alignment */
+  background-color: #4d9f2f; /* Button container background */
+  border-radius: 15px; /* Rounded corners */
+  display: flex; /* Centering content */
+  align-items: center; /* Vertical alignment */
+  justify-content: center; /* Horizontal alignment */
+}
+
+.main .overlap-81 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* No border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Rounded corners for the button */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+  width: 100%; /* Fill the width of overlap-81 */
+}
+
+.main .overlap-81 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-81 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+
+.main .overlap-82 {
+  position: absolute;
+  width: 183px; /* Box width */
+  height: 276px; /* Box height */
+  top: 2486px; /* Position from the top */
+  left: 78px; /* Position from the left */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Box shadow */
+}
+
+.main .text-wrapper-44 {
+  top: 0px; /* Position from the top */
+  left: 28px; /* Left alignment */
+  position: absolute;
+  width: 113px; /* Text width */
+  font-family: "Itim-Regular", Helvetica; /* Font style */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-83 {
+  position: absolute;
+  width: 76px; /* Button container width */
+  height: 35px; /* Button container height */
+  top: 217px; /* Position from the top */
+  left: 35px; /* Left alignment */
+  background-color: #4d9f2f; /* Button container background */
+  border-radius: 15px; /* Rounded corners */
+  display: flex; /* Centering content */
+  align-items: center; /* Vertical alignment */
+  justify-content: center; /* Horizontal alignment */
+}
+
+.main .overlap-83 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* No border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Rounded corners for the button */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+  width: 100%; /* Fill the width of overlap-83 */
+}
+
+.main .overlap-83 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-83 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-84 {
+  position: absolute;
+  width: 183px; /* Box width */
+  height: 276px; /* Box height */
+  top: 2486px; /* Position from the top */
+  left: 292px; /* Position from the left */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Box shadow */
+}
+
+.main .text-wrapper-45 {
+  top: 0px; /* Position from the top */
+  left: 40px; /* Left alignment */
+  position: absolute;
+  width: 113px; /* Text width */
+  font-family: "Itim-Regular", Helvetica; /* Font style */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-85 {
+  position: absolute;
+  width: 76px; /* Button container width */
+  height: 35px; /* Button container height */
+  top: 220px; /* Position from the top */
+  left: 41px; /* Left alignment */
+  background-color: #4d9f2f; /* Button container background */
+  border-radius: 15px; /* Rounded corners */
+  display: flex; /* Centering content */
+  align-items: center; /* Vertical alignment */
+  justify-content: center; /* Horizontal alignment */
+}
+
+.main .overlap-85 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* No border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Rounded corners for the button */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+  width: 100%; /* Fill the width of overlap-85 */
+}
+
+.main .overlap-85 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-85 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-86 {
+  position: absolute;
+  width: 183px; /* Box width */
+  height: 276px; /* Box height */
+  top: 2486px; /* Position from the top */
+  left: 506px; /* Position from the left */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 4px #00000040; /* Box shadow */
+}
+
+.main .text-wrapper-46 {
+  top: 0px; /* Position from the top */
+  left: 38px; /* Left alignment */
+  position: absolute;
+  width: 113px; /* Text width */
+  font-family: "Itim-Regular", Helvetica; /* Font style */
+  font-weight: 400;
+  color: #000000; /* Text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .overlap-87 {
+  position: absolute;
+  width: 76px; /* Button container width */
+  height: 35px; /* Button container height */
+  top: 223px; /* Position from the top */
+  left: 47px; /* Left alignment */
+  background-color: #4d9f2f; /* Button container background */
+  border-radius: 15px; /* Rounded corners */
+  display: flex; /* Centering content */
+  align-items: center; /* Vertical alignment */
+  justify-content: center; /* Horizontal alignment */
+}
+
+.main .overlap-87 button {
+  background-color: #4d9f2f; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* No border */
+  padding: 5px 10px; /* Button padding */
+  border-radius: 10px; /* Rounded corners for the button */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+  width: 100%; /* Fill the width of overlap-87 */
+}
+
+.main .overlap-87 button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+.main .overlap-87 button:active {
+  background-color: #2f6d31; /* Even darker green on click */
+}
+
+.main .overlap-88 {
+  position: absolute;
+  width: 545px;
+  height: 58px;
+  top: 40px;
+  left: 764px;
+}
+
+.main .rectangle {
+  position: absolute;
+  width: 545px;
+  height: 53px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 36px;
+}
+.search-bar {
+  width: 200px;
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.text-wrapper-47 {
+  background-color: #0a0a0a;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Card 1 */
+.main .overlap-89 {
+  position: absolute;
+  width: 183px; /* Card width */
+  height: 276px; /* Card height */
+  top: 2485px; /* Vertical positioning */
+  left: 1148px; /* Horizontal positioning */
+  background-color: #d9d9d9; /* Light gray background */
+  border-radius: 20px; /* Rounded corners */
+ 
+}
+
+
+
+.main .text-wrapper-48 {
+  position: absolute;
+  top: 10px; /* Added padding from top */
+  left: 33px; /* Horizontal alignment */
+  width: 113px; /* Width of the text box */
+  font-family: "Itim-Regular", Helvetica; /* Using "Itim" font */
+  font-weight: 400; /* Regular weight */
+  color: #333; /* Darker text color */
+  font-size: 20px; /* Font size */
+  letter-spacing: 0; /* No additional spacing */
+  line-height: normal; /* Default line-height */
+}
+
+.main .overlap-90 {
+  position: absolute;
+  width: 76px; /* Button container width */
+  height: 35px; /* Button container height */
+  top: 223px; /* Position from the top */
+  left: 47px; /* Left alignment */
+  background-color: #4d9f2f; /* Button container background */
+  border-radius: 15px; /* Rounded corners */
+  display: flex; /* Centering content */
+  align-items: center; /* Vertical alignment */
+  justify-content: center; /* Horizontal alignment */
+}
+
+
+
+/* Card 2 */
+.main .overlap-group-2 {
+  position: absolute;
+  width: 183px; /* Width of the card */
+  height: 276px; /* Height of the card */
+  top: 2486px; /* Positioning from the top */
+  left: 720px; /* Positioning from the left */
+  background-color: #d9d9d9; /* Background color of the card */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.main .text-wrapper-49 {
+  position: absolute;
+  top: 10px;
+  left: 37px;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica;
+  font-weight: 400;
+  color: #333;
+  font-size: 20px;
+}
+
+.main .overlap-91 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 224px;
+  left: 45px;
+  background-color: #4d9f2f;
+  border-radius: 15px;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+
+
+/* Card 3 */
+.main .overlap-92 {
+  position: absolute;
+  width: 183px;
+  height: 276px;
+  top: 2486px;
+  left: 934px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.main .text-wrapper-50 {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  width: 113px;
+  font-family: "Itim-Regular", Helvetica;
+  font-weight: 400;
+  color: #333;
+  font-size: 20px;
+}
+
+.main .overlap-93 {
+  position: absolute;
+  width: 76px;
+  height: 35px;
+  top: 227px;
+  left: 38px;
+  background-color: #4d9f2f;
+  border-radius: 15px;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.main .overlap-93:hover {
+  background-color: #268000;
+}
+
+.main .vector {
+  position: absolute;
+  width: 41px;
+  height: 50px;
+  top: 43px;
+  left: 1337px;
+}
+
+.main .img {
+  position: absolute;
+  width: 85px;
+  height: 38px;
+  top: 40px;
+  left: 71px;
+}
+.a,i{
+  right: 500px;
+}
+/* Style for the anchor tag */
+a {
+  display: inline-block;
+  text-decoration: none; /* Removes underline */
+  padding: 10px; /* Adds some padding around the icon */
+  border-radius: 5px; /* Adds slight roundness to the edges */
+  background-color: #4971f5; /* Sets a background color */
+  transition: background-color 0.5s ease; /* Smooth transition for hover effect */
+}
+
+/* Change background color on hover */
+a:hover {
+  background-color: #f50a0a;
+}
+
+/* Style for the icon */
+a i {
+  color: #0a0a0a; /* Icon color */
+  font-size: 16px; /* Icon size */
+  transition: transform 0.3s ease; 
+  /* Smooth transition for rotation */
+}
+
+/* Rotate icon on hover */
+a:hover i {
+  transform: rotate(180deg); 
+  /* Rotate icon back on hover */
+}
+
+/* Define the highlight effect */
+.highlight {
+  background-color: yellow; /* Highlight background */
+  animation: fadeHighlight 60s forwards; /* Add animation for fading effect */
+}
+
+@keyframes fadeHighlight {
+  0% { background-color: yellow; }
+  100% { background-color: transparent; }
+}
+
+
+ 
+
+@media (max-width: 768px) {
+  .main .div {
+      width: 100%;
+  }
+  .main .overlap {
+      width: 150px; /* Adjust width as needed */
+  }
+  /* Add more styles for smaller screens */
+}.main {
+  display: flex;
+  flex-wrap: wrap; /* Allow elements to wrap to the next line */
+}
+
+
