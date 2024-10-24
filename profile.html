@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="globals.css">
+    <link rel="stylesheet" href="css/profilr.css">
+    <style>
+        /* Styling the circle (ellipse) */
+        .ellipse {
+            width: 150px;
+            height: 150px;
+            background-color: #ddd;
+            border-radius: 50%;
+            cursor: pointer;
+            position: relative;
+            border: 2px solid #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Image preview inside the circle */
+        .image-preview {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            display: none; /* Initially hidden */
+        }
+
+        /* Hidden file input */
+        #fileInput {
+            display: none;
+        }
+    </style>
+    <title>Profile</title>
+</head>
+<body>
+    <div class="wireframe">
+        <div class="div">
+            <!-- Profile Circle (Ellipse) -->
+            <div class="ellipse" id="uploadEllipse">
+                <img id="imagePreview" class="image-preview" src="" alt="Profile Picture">
+            </div>
+
+            <!-- Hidden File Input for Image Upload -->
+            <input type="file" id="fileInput" accept="image/*">
+
+            <!-- Profile Information -->
+            <div class="overlap">
+                <div class="text-wrapper">Name: <span id="userName"></span></div>
+            </div>
+
+            <div class="overlap-group">
+                <div class="text-wrapper-2">Email: <span id="userEmail"></span></div>
+            </div>
+
+            <div class="div-wrapper">
+                <div class="text-wrapper-3">Profile</div>
+            </div>
+
+            <div class="overlap-2" id="loginButton">
+                <div class="text-wrapper-4">login</div>
+            </div>
+            
+            
+            <div class="overlap-group-2" id="signupButton">
+                <div class="text-wrapper-5">signup</div>
+
+            </div>
+
+            <!-- Welcome Message -->
+            <div class="welcome-to-quize-at-wrapper">
+                <p class="welcome-to-quize-at">
+                    Welcome to Quize!<br>At Quize, we believe in making learning fun and interactive...
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript to handle image upload and preview
+        const uploadEllipse = document.getElementById('uploadEllipse');
+        const fileInput = document.getElementById('fileInput');
+        const imagePreview = document.getElementById('imagePreview');
+
+        // Click event on the ellipse to trigger file input click
+        uploadEllipse.addEventListener('click', () => {
+            fileInput.click();
+        });
+
+        // Handle file input change and display the selected image
+        fileInput.addEventListener('change', (event) => {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    imagePreview.src = e.target.result;  // Set image source
+                    imagePreview.style.display = 'block';  // Show the image
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+    <script>
+        document.getElementById("loginButton").addEventListener("click", function() {
+            window.location.href = "login.html"; // Replace with the actual URL or file path of your login page
+        });
+    </script>
+    <script>
+        document.getElementById("signupButton").addEventListener("click", function() {
+            window.location.href = "signup.html"; // Replace with the actual URL or file path of your login page
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Fetch user data (this is a placeholder)
+            fetch('https://your-api-url/get-user')
+            .then(response => response.json())
+            .then(user => {
+                document.getElementById('userName').textContent = user.name;
+                document.getElementById('userEmail').textContent = user.email;
+            })
+            .catch(error => console.error('Error fetching user data:', error));
+        });
+        </script>
+    
+    
+</body>
+</html>
